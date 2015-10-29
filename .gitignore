@@ -3,3 +3,7 @@
 vendor/
 runtime/
 composer.lock
+
+blink_dev
+tmp_libs
+tmp_libs2

@@ -8,6 +8,14 @@ return [
         'class' => \blink\http\Response::class,
         'middleware' => [],
     ],
+    'view' => [
+        'class' => \blink\view\View::class,
+        'config'=> [
+            'debug'     => true,
+            'views_dir' => '/src/views/',
+            'cache_dir' => '/runtime/cache/',
+        ]
+    ],
     'session' => [
         'class' => 'blink\session\Manager',
         'expires' => 3600 * 24 * 15,
